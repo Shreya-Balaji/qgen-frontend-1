@@ -54,5 +54,5 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9em;
   white-space: pre-wrap;
-  word-break: break-word; /* Changed from break-all for better word preservation */
+  word-break: break-word; 
 }
