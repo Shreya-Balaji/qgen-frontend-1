@@ -36,10 +36,13 @@ body {
 
 .metric-item {
   margin-bottom: 8px;
+  display: flex; /* For better alignment of label and value */
+  flex-wrap: wrap; /* Allow wrapping if content is too long */
 }
 .metric-item strong {
     display: inline-block;
-    min-width: 150px;
+    min-width: 220px; /* Adjusted min-width for better readability */
+    margin-right: 8px; /* Add some space between label and value */
 }
 
 .snippet-code {
@@ -51,5 +54,5 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9em;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word; /* Changed from break-all for better word preservation */
 }
